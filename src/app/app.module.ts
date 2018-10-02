@@ -30,7 +30,6 @@ import {SidebarClientComponent} from "./views/main-client/shared/sidebar/sidebar
 import {SidebarFreelancerComponent} from "./views/main-freelancer/shared/sidebar/sidebar.component";
 import {ProjectComponent} from "./views/main-client/project/project.component";
 import {FileService} from "./service/file-service.service";
-import {AngularFileUploaderModule} from "angular-file-uploader";
 import { BidComponent } from './views/main-freelancer/bid/bid.component';
 import {ProfileComponentClient} from "./views/main-client/client-profile/profile.component";
 import {BidService} from "./service/bid.service";
@@ -74,7 +73,6 @@ import {NotificationService} from "./service/notification.service";
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AngularFileUploaderModule,
     TagInputModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
