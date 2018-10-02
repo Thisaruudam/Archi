@@ -15,7 +15,6 @@ import {ProfileComponent} from './views/main-freelancer/profile/profile.componen
 import {AuthGuard} from "./guards/auth.guard";
 import {AuthService} from "./service/auth.service";
 import {ActivatedRoute, RouterStateSnapshot} from "@angular/router";
-import {FileSelectDirective} from "ng2-file-upload";
 import {FreelancerService} from "./service/freelancer.service";
 import {ProjectService} from "./service/project.service";
 import { SignupClientComponent } from './views/signup-client/signup-client.component';
@@ -51,7 +50,6 @@ import {NotificationService} from "./service/notification.service";
     SignupComponent,
     DashboardComponent,
     DashboardClientComponent,
-    FileSelectDirective,
     ProjectComponent,
     ProfileComponent,
     ProfileComponentClient,
